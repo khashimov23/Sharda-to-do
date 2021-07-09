@@ -1,0 +1,45 @@
+body {
+	background: rgba(49, 75, 100, 0.8);
+	font-family: 'Oswald', 'Futura', sans-serif;
+}
+#wrapper {
+	margin-top: 5% !important;
+}
+#content {
+	background: beige;
+	padding: 25px;
+}
+#content > h2 {
+	font-size: 18px;
+	text-align: center;
+	padding-top: 0;
+}
+.t10 {
+	margin-top: 10px;
+}
+.t20 {
+	margin-top: 0px;
+}
+.todo-completed {
+	text-decoration: line-through;
+	background: rgba(149, 165, 166, .3);
+}
+footer {
+	margin-top: 50px;
+	color: white;
+}
+.list-group-item {
+	color: black;
+}
+.navbar {
+	background-color: aliceblue;
+}
+.navbar > h1 {	 
+	text-align: center;
+}
+.navbar > li {
+	padding: 0 5%;
+	list-style: none;
+	color: #000;
+	background-color: aliceblue;
+}
